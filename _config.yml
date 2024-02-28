@@ -21,12 +21,12 @@ repository               : "rademakr/rademakr.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Olivier Rademakers"
   pronouns         : # example: "she/her"  
   bio              : "Special Delivery Manager"
   location         : "Vaucresson, France"
-  employer         : ""
+  employer         : "Claranet"
   uri              : # URL
   email            : "rademakers@channelopen.org" 
 

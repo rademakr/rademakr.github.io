@@ -1,49 +1,46 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "The public homepage for ChannelOpen"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
+About me
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I'm a belgian citizen living in France, with an american education. I have been passionate for IT as far as I can remember. I remember getting a Hayes modem for my 16th birthday and that was one of the best presents I have ever received. Maybe rivaled by a Chromecast device offered by my son a few years back ;-)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My first real job in IT was a long time ago, in 1993, at Schumberger. I was part time developper on IBM's mini system AS/400, part time hotliner, and part time handling user training on the programs my team and I were developping. Atypical job...but atypical is fitting.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+From there, I joined a team that was working on water meter reading from a distance. I worked on projects that seem so "obvious" today, but at the time, personal computers had not yet made their way in the office. I had the odd job of replacing AS/400 terminals by PCs, and seting up the AS/400 emulators so not to upset the end-users. I also witnessed the arrival of TCP/IP, e-mail, Ethernet...as I said, everything that sounds so common nowdays. I also encountered linux at that time. If memory serves, the kernel was 0.98 and the distro was Slackware. I might still have the CDs in an attick somewhere.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+My very first manager was a heavy figured bearded guy who inimidated me to say the least. He was tough, and so rough I thought at the time he hated me. But when Schlumberger decided to regroup all the best computer wizes from all the different IT departments, that boss came to see me and told me I had to join, he didn't know a better candidate. I was shocked, and pleased ^^
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+I did join that new internal company. I was so eager to work with the best that I accepted the first position they proposed. Even though looking back at my carear, I have zero regrets, the guy I am today would not have played it that way.
+My first job in that company was helpdesker. We see level 1 support as the lowest position in IT, and though that may be true, I don't think I have ever laughed as much as during that time. We were three working on a site hosting 2700 users, we were very busy, but we had the best time.
 
-**Markdown generator**
+Eight months after, I became desktop support technician. Not as fun as the helpdesk that is for sure but the job had its perks. When I wasn't playing computer games setting up LAN parties with my friends over the weekends, I would volunteer for VIP seminars with Schlumberger where I had to setup the IT infrastructure for users over the weekend; CISCO routers for internet connection, a printer and Active Directory servers for authentication (and printing).
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+I held that job for about a year and a half, and then joined the Windows server team. I gained a lot of knowledge there. The team was great. But I had aspirations to work on Unix systems...and clearly both Windows and Unix teams were far apart, not in distance, but in spirit.
+I spoke with a buddy in the Unix team and he told me, "if one day you want to make it on the other side, I suggest you learn DNS and bind". I read all I could find on bind. Theoretically DNS had no more secrets for me. I was put to the test by going on an oil rig where the IT manager (the only IT guy on the whole platform) had major IT issues, and a non-working DNS server.
+What an amazing experience! And the way I was greeted by all the guys there was just as amazing. They loved me. As they said "I was the guy that was bringing them porn". Haha ^^
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+My buddy from the Unix team left the company. The perfect opportunity for me to step in and tell them I could take his place. I knew DNS inside and out, I'd have to learn mail servers...but how hard could that be? I got the job. I was everything I had hoped for, and more. The other Unix team members also left the company and I found myself the unique member of the team. Hard times...
+About a year in, we greeted a new member. This guy was simply above the heard. Probably one of the most intelligent guys I have ever worked with. He learned Perl in a few weeks and he was doing some really cool things with the language. I was intrigued. And it had been a long time since I had done some programming. I missed it.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+I picked up the O'Reilly Camel book and read it like a novel. I was introduced to LDAP at the same time. I fell in love with both Perl and LDAP and have written since hundreds of scripts related to LDAP. Such powerful stuff!
+My company (the IT part of Schlumberger) was sold off to Atos, as Schlumberger wanted to refocus on their main revenue stream, petroleum. At first Atos seemed like it was going to be horrible ^^ I was in a Unix department, but mainly occupied on backups and more boring tasks. But, being able to see the positive in every situation, I did not dispair. In fact, I got there just in time. They had a huge development project around backups and reading the output logs and feeding the information to a system that would provide a daily dashboard on the status of last night's backups.
+I worked with a colleague on this project, bringing all my theoretical Perl knowledge to the table. You guessed it, it was a success. I never considered anything else.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Once the project was done, I left that department to join a team of Unix experts. They wer working on everything I love the most in IT; infrastructure. I felt right at home in my element. So much so that I stayed there for eight years. There was so much to learn, so much to do, surrounded by bright minds. I also had an incredible manager. A guy who for the first time showed me there was a difference between a leader and a manager. What a leader he was!
+But life has its plans...and he eventually got retired from his position due to internal politics. At that moment, he was leading a major project, and he asked the team if anyone was interrested picking up the project. No volunteers. So I went to see him and told him I would do it. He was more than surprised, here I was, a total linux geek, developping tools and websites, willing to give it all up for a Windows PC, and making Excel and Outlook my main tools.
+
+That's how I became project manager. The project was huge indeed. Consisting in designing and setting up a new and modern e-mail system for Atos worlwide. I had a year before meeting the deadline. The project was a complete success. I learned a lot during that year, technically for sure, but obviously mainly in project management. The importance of writting meeting minutes was learned the hard way. Apparently the first rule of all project managers...but when I think of how the job fell on me, I'm not surprised some rules passed me by. Nevermind. I learned my lesson and would not get fooled by anyone pretending not having said what they said after that.
+The project was such a success that Atos' DSI asked me to lead a comparable project when they merged with Bull. I had 18 months this time. Just enough to reach success. Of course, I was an atypical project manager, very tech saavy, willing and able to help out technical teams in order to achieve my given goals.
+
+I never stopped leading projects. Even today, while being SDM, working for another company, I still lead projects. I became SDM kind of the same way I became everything else before that. Via an opportunity.
+
+It'll be almost ten years that I'm SDM. I can still get down and dirty with the nitty gritty technical issues. Even now that I work with a team of DevOps engineers focussed on CloudOps. Between two projects, or two phone calls with customers or team members, I managed to learn Ansible, a fantastic solution aimed at automating deployments of software/middleware.
+
+I don't know what is next, but I do know there is more to come ;-)
